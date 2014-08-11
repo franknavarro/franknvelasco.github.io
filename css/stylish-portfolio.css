@@ -63,7 +63,7 @@ body {
 
 hr.small {
     max-width: 100px;
-    margin-bottom: 75px;
+    margin-bottom: 5em;
 }
 
 /* Side Menu */
@@ -184,8 +184,8 @@ hr.small {
 .service-list {
 	list-style: disc;
 	list-style-position: inside;
-	padding: 0 0 0 60px;
-	text-align: left;
+	text-align: center;
+	padding: 0;
 }
 
 .service-education {
