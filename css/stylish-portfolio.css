@@ -169,10 +169,12 @@ hr.small {
 .quote {
 	color: #E35656;
 	text-align: center;
-	display: inline;
+	margin: auto;
+	margin-top: .5em;
 	padding: .5em;
 	min-width: 20px;
-	float: center;
+	max-width: 40em;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .top-button {
