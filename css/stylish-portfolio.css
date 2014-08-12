@@ -237,6 +237,8 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+    vertical-align: middle;
+
 }
 
 .img-portfolio:hover {
@@ -249,6 +251,7 @@ hr.small {
 	font-size:16px;
 	font-weight:400;
 	line-height:1.4
+	clear: both;
 }
 
 @media (min-width:768px){
@@ -266,9 +269,28 @@ hr.small {
 
 }
 
+.screenshot-container {
+	display: inline-block;
+	
+}
+
 .screenshot5 {
 	width: 20%;
 	height: 20%;
+	vertical-align: none;
+}
+
+.screenshot5:first-child {
+	float: left;
+	margin-left: 27%;
+}
+
+.screenshot5:nth-child(2) {
+	float: right;
+	margin-right: 25%;
+}
+
+.screeshot-container>.screenshot5 {
 }
 
 /* Call to Action */
