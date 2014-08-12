@@ -168,11 +168,11 @@ hr.small {
 
 .quote {
 	color: #E35656;
-	border: 1px solid #333;
 	text-align: center;
 	display: inline;
 	padding: .5em;
 	min-width: 20px;
+	float: center;
 }
 
 .top-button {
