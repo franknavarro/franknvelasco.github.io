@@ -77,8 +77,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
+            	<div class="intro-lead-in">"I can do all this through him who gives me strength."</div>
             	<div class="intro-heading">Frank Navarro-Velasco</div>
-                <div class="intro-lead-in">"I can do all this through him who gives me strength."</div>
                 <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
             </div>
         </div>
@@ -198,8 +198,8 @@
                         <img src="Assets/ColorChargeLogo.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Color Charge</h4>
+                        <p class="text-muted">Colorful Chaos.</p>
                     </div>
                 </div>
             </div>
@@ -360,11 +360,11 @@
                             <h2>Color Charge</h2>
                             <p class="item-intro text-muted">Stop feeling blue &amp; play Color Charge.</p>
                             <img class="img-responsive img-centered" src="Assets/ColorCharge.png" alt="">
-                            <div class="video-container">
-                            	<iframe width="560px" height="315px" src="http://www.youtube.com/embed/RNgIdysPQLs" frameborder="0"></iframe>
-                            </div>
+                            <!--<div class="video-container">
+                            	<iframe width="1280px" height="720px" src="http://www.youtube.com/embed/RNgIdysPQLs" frameborder="0"></iframe>
+                            </div>-->
                             <p>Color Charge is a world of color that shows the potential of the three primary colors and your skills to use them. Charge your way through red, blue, yellow, green, purple, orange and white lines as they pick up speed towards the box of colors. Sounds easy enough, and with eye pleasing colors for a truly colorful experience, Color Charge is simple enough for anyone. Get through the colors and get up a high score to be the bes on the leaderboards. For to charge through the magnificent colors will be an awfully big adventure!</p>
-                            <p>You can download Color Charge for iOS <a href="#">here</a>.</p>
+                            <p>You can download Color Charge for iOS <a href="https://itunes.apple.com/us/app/color-charge/id904481467">here</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -390,6 +390,15 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    
+    <script src="js/jquery.fitvids.js"></script>
+    
+    <script>
+    	$(document).ready(function(){
+    		// Target your .container, .wrapper, .post, etc.
+    		$(".video-container").fitVids();
+  		});
+    </script>
 
 </body>
 
