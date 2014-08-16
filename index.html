@@ -55,10 +55,10 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Skills</a>
+                        <a class="page-scroll" href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Projects</a>
+                        <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -94,12 +94,14 @@
             </div>
             <div class="row text-center">
             	<h3 class="text-muted aboutme">Mí nombre és Frank.</h3>
+            	<h3 class="text-muted aboutme"> 19 years old and I love the outdoors, music, and especially programming.</h3>
+            	<a href="#resume" class="resumeButton btn btn-xl" data-toggle="modal">Resume</a>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services">
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -178,26 +180,26 @@
         </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <!-- projects Grid Section -->
+    <section id="projects">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Projects</h2>
+                    <h2 class="section-heading">projects</h2>
                     <h3 class="section-subheading text-muted">Also known as cool things I've done.</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="portfolio-item"> <!-- INSERT THIS CLASS WHEN ADDING MORE PROJECTS col-md-4 col-sm-6 -->
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="projects-item"> <!-- INSERT THIS CLASS WHEN ADDING MORE projects col-md-4 col-sm-6 -->
+                    <a href="#projectsModal1" class="projects-link" data-toggle="modal">
+                        <div class="projects-hover">
+                            <div class="projects-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
                         <img src="Assets/ColorChargeLogo.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="projects-caption bg-light-gray">
                         <h4>Color Charge</h4>
                         <p class="text-muted">Colorful Chaos.</p>
                     </div>
@@ -211,7 +213,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h2 class="section-heading">My Amazing Team</h2>
                     <h3 class="section-subheading text-muted">Me, Mi &amp; Yo </h3>
                 </div>
             </div>
@@ -263,11 +265,13 @@
         </div>
     </section>
 
-    <section id="contact">
+	<!--Currently Under Construction-->
+	
+    <!--<section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
+                    <h2 class="section-heading">Contact Me</h2>
                 </div>
             </div>
             <div class="row">
@@ -304,10 +308,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <footer>
-        <div class="container">
+        <div class="container" id="contact">
             <div class="row">
                 <div class="col-md-4">
                     <span class="copyright">Copyright &copy; Frank Navarro-Velasco 2014</span>
@@ -341,11 +345,11 @@
         </div>
     </footer>
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
+    <!-- projects Modals -->
+    <!-- Use the modals below to showcase details about your projects projects! -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- projects Modal 1 -->
+    <div class="projects-modal modal fade" id="projectsModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -359,13 +363,39 @@
                         <div class="modal-body">
                             <h2>Color Charge</h2>
                             <p class="item-intro text-muted">Stop feeling blue &amp; play Color Charge.</p>
-                            <img class="img-responsive img-centered" src="Assets/ColorCharge.png" alt="">
-                            <div class="video-container">
+                            <img class="img-responsive img-centered screenshot" src="Assets/ColorCharge.png" alt="">
+                            <!-- Still trying to make video to put here-->
+                            <!--<div class="video-container">
                             	<iframe width="1280px" height="720px" src="http://www.youtube.com/embed/RNgIdysPQLs" frameborder="0"></iframe>
-                            </div>
+                            </div>-->
                             <p>Color Charge is a world of color that shows the potential of the three primary colors and your skills to use them. Charge your way through red, blue, yellow, green, purple, orange and white lines as they pick up speed towards the box of colors. Sounds easy enough, and with eye pleasing colors for a truly colorful experience, Color Charge is simple enough for anyone. Get through the colors and get up a high score to be the bes on the leaderboards. For to charge through the magnificent colors will be an awfully big adventure!</p>
                             <p>You can download Color Charge for iOS <a href="https://itunes.apple.com/us/app/color-charge/id904481467">here</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<div class="projects-modal modal fade" id="resume" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content myResume">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Resume</h2>
+                            <div class="img-centered">
+                            	<iframe src="Assets/RESUME.pdf" width="100%" height="500"></iframe>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
                         </div>
                     </div>
                 </div>
